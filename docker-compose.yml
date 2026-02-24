@@ -13,7 +13,7 @@ services:
       - mean-network
 
   backend:
-    image: ${DOCKERHUB_USERNAME:-yourusername}/dd-backend:latest
+    image: ${DOCKERHUB_USERNAME:-roshanshaik18}/dd-backend:latest
     container_name: backend
     build:
       context: ./backend
@@ -29,7 +29,7 @@ services:
       - mean-network
 
   frontend:
-    image: ${DOCKERHUB_USERNAME:-yourusername}/dd-frontend:latest
+    image: ${DOCKERHUB_USERNAME:-roshanshaik18}/dd-frontend:latest
     container_name: frontend
     build:
       context: ./frontend

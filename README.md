@@ -210,3 +210,16 @@ docker compose logs -f
 |----------|---------|-------------|
 | `MONGO_URL` | `mongodb://localhost:27017/dd_db` | MongoDB connection string |
 | `PORT` | `8080` | Backend server port |
+## 📸 Screenshots
+
+### Application UI
+![Tutorials List](docs/screenshots/ui-tutorials-list.png)
+
+### CI/CD Pipeline
+![CI/CD Pipeline](docs/screenshots/cicd-pipeline.png)
+
+### Docker Hub Images
+![Docker Hub](docs/screenshots/dockerhub-images.png)
+
+### VM Console
+![VM Console](docs/screenshots/vm-console.png)
